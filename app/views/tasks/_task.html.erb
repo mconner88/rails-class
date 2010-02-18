@@ -1,0 +1,9 @@
+<li>
+	<% form_for :task, task, :url => {:controller => 'tasks', :action => :update, :id => task.id },
+		:html => { :method => :put } do |f| %>
+		<%= f.check_box 'completed' %>
+		<%= f.label task.title %>
+		<%= hidden_field :list, :id %>
+		<%= submit_tag 'Update' %>
+	<% end %>
+</li>

@@ -1,0 +1,7 @@
+<h1>My Lists</h1>
+<ul>
+<%= render :partial => 'list_overview', :collection => @lists %>
+</ul>
+<br />
+
+<%= link_to 'New list', new_list_path %>

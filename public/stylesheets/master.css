@@ -1,0 +1,95 @@
+/*
+Title: Master styles for screen media
+Author: Hunter Gillane
+*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:  #444;
+	font-size: 62.5%;
+	text-align: center;
+}
+
+/* links */
+
+a:link, a:visited {
+	color: #369;
+	outline: none;
+}
+a:hover {
+	color: #36c;
+}
+
+/* page structure
+--------------------------------------------- */
+
+#wrap {
+	margin: 0 auto;
+	width: 900px;
+	text-align: left;
+}
+#header {
+	
+}
+#main {
+	
+}
+#secondary {
+	
+}
+#footer {
+	
+}
+
+/* header
+--------------------------------------------- */
+#header {
+	margin-top: 50px;
+}
+#logo {
+	font-size: 200%;
+}
+
+/* nav */
+
+#nav {
+	
+}
+
+/* main styles
+--------------------------------------------- */
+#main h2 {
+	margin-top: 20px;
+}
+#main ul.incomplete_tasks, #main ul.complete_tasks {
+	margin: 15px 8px;
+}
+/* secondary style
+--------------------------------------------- */
+
+/* footer
+--------------------------------------------- */
+
+#footer {
+	
+}
+
+/* misc
+--------------------------------------------- */
+
+hr, .hide {
+	display: none;
+}
+a img {
+	border: 0;
+}
+
+/* self-clear floats */
+
+.group:after {
+	content: '.';
+	display: block;
+	height:  0;
+	clear:  both;
+	visibility:  hidden;
+}

@@ -1,0 +1,1 @@
+  [4;36;1mList Create (0.5ms)[0m   [0;1mINSERT INTO "lists" ("updated_at", "title", "description", "created_at") VALUES('2010-02-18 01:34:29', NULL, NULL, '2010-02-18 01:34:29')[0m

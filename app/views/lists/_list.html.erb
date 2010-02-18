@@ -1,0 +1,6 @@
+<li>
+	<h3><%= list.title %></h3>
+	<ul>
+		<%= render :partial => 'tasks/task', :collection => list.tasks %>
+	</ul>
+</li>

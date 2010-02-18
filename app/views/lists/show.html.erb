@@ -1,0 +1,5 @@
+<h2><%= @list.title%></h2>
+<ul>
+	<%= render :partial => 'tasks/task', :collection => @list.tasks %>
+</ul>
+<%= link_to 'Back', lists_path %>
